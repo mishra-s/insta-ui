@@ -17,7 +17,10 @@
   }
   
 .content {
+    display: flex;
     flex: 85%;
+    flex-direction: row;
+    justify-content: center;
     color: #555;
   }
 
@@ -55,5 +58,39 @@ span {
   padding: 12px;
   height: 24px;
   /* padding-bottom: 2px; */
+}
+
+.content-section-1 {
+  /* border: 2px solid #fff; */
+  width: 40%;
+}
+
+.content-section-2 {
+  /* border: 2px solid red; */
+  width: 30%;
+}
+
+.story-section {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  padding-top: 20px;
+  justify-content: space-around;
+  /* border: 2px solid yellow; */
+}
+
+.story-box {
+  height: 60px;
+  width: 60px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+  border-radius: 50%;
+}
+
+.inner-circle {
+  margin-top: 3px;
+  margin-left: 3px;
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
 }
 
